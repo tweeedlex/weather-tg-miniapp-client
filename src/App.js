@@ -9,6 +9,7 @@ import { useSelector } from "react-redux";
 import { getAll } from "./requests/requests.js";
 import { useDispatch } from "react-redux";
 import { useBackground } from "./hooks/useBackground.js";
+import { useGetWeather } from "./hooks/useGetWeather.js"
 import { useGeolocation } from "./hooks/useGeolocation.js";
 import { getGreetingData } from "./helpers/getGreetingData.js";
 
@@ -17,17 +18,12 @@ function App() {
   const fetchedLocation = useSelector((state) => state.fetchedLocation);
   const current = useSelector((state) => state.current);
   const dispatch = useDispatch();
-  useEffect(() => {
-    getAll(dispatch, location);
-    if (location) {
-      setIsLoading(false);
-    }
-  }, [location]);
 
   const [isLoading, setIsLoading] = useState(true);
 
   const [background, setBackground] = useState("");
 
+  useGetWeather(location, setIsLoading, dispatch)
   useBackground(current, setBackground);
   useGeolocation(dispatch, setIsLoading);
 

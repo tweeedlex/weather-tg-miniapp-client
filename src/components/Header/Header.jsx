@@ -1,13 +1,23 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.scss";
 import searchIcon from "../../images/icons/search.png";
+import saveIcon from "../../images/icons/save.png";
+import removeIcon from "../../images/icons/remove.png";
 import { setLocation } from "../../store/slice";
 import { useDispatch } from "react-redux";
 
 export const Header = () => {
   const [locationValue, setLocationValue] = useState("");
+  const [isSaving, setIsSaving] = useState(false);
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    const savedLocation = localStorage.getItem("location")
+    if (savedLocation) {
+      setIsSaving(true)
+    }
+  }, []);
 
   const links = document.querySelectorAll("header a");
   links.forEach((link) => {
@@ -16,6 +26,22 @@ export const Header = () => {
       link.classList.add(styles.active);
     });
   });
+
+  const handleChangeLocation = () => {
+    dispatch(setLocation(locationValue))
+    if (isSaving) {
+      localStorage.setItem("location", locationValue)
+    }
+  }
+
+  const handleToggleSaving = () => {
+    if (isSaving) {
+      localStorage.setItem("location", "")
+    } else {
+      localStorage.setItem("location", locationValue)
+    }
+    setIsSaving(!isSaving);
+  }
 
   return (
     <header>
@@ -27,11 +53,23 @@ export const Header = () => {
             value={locationValue}
             onChange={(e) => setLocationValue(e.target.value)}
           />
-          <button className="search">
+          <button className="search" onClick={handleChangeLocation}>
             <img
-              src={searchIcon}
-              alt="Search"
-              onClick={() => dispatch(setLocation(locationValue))}
+                src={searchIcon}
+                alt="Search"
+            />
+          </button>
+          <button className={styles.save} onClick={handleToggleSaving}>
+            <img
+                src={saveIcon}
+                alt="Save"
+                width={20}
+            />
+            <img
+                className={styles.removeIcon + " " + (isSaving ? styles.active : "")}
+                src={removeIcon}
+                alt="Cancel"
+                width={12}
             />
           </button>
         </div>

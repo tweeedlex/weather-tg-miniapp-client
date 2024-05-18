@@ -49,6 +49,21 @@ header {
   }
 }
 
+.save {
+  position: relative;
+
+  .removeIcon {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
