@@ -176,6 +176,10 @@ h1 {
   }
 }
 
+h2 {
+  text-shadow: $text-shadow;
+}
+
 hr {
   border: 1px solid #e1e1e1;
   margin: 0 0 10px 0;

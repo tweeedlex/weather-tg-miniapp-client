@@ -9,7 +9,6 @@ export const useBackground = (current, setBackground) => {
       const image = images.find(
         (image) => image.day.toLowerCase() === current?.condition?.text.toLowerCase()
       )?.imageDay;
-      console.log(current?.condition?.text, images)
       setBackground(image);
     } else if (!current?.is_day) {
       const image = images.find(
