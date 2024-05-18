@@ -1,0 +1,338 @@
+[
+  {
+    "code": 1000,
+    "day": "Sunny",
+    "night": "Clear",
+    "imageDay": "https://www.wallpaperflare.com/static/496/304/962/cherry-blossom-tree-sunny-wallpaper.jpg",
+    "imageNight": "https://aclearnight.com/images/aclearnight-1024x538-fb.png"
+  },
+  {
+    "code": 1003,
+    "day": "Partly cloudy",
+    "night": "Partly cloudy",
+    "imageDay": "https://www.wkbn.com/wp-content/uploads/sites/48/2021/03/clouds-cloudy-sky-spring-summer-fall-winter-weather-generic-8-1.jpg?w=1280",
+    "imageNight": "https://i.pinimg.com/originals/e0/84/e8/e084e8506a3081f4939a798c02a8a7a7.jpg"
+  },
+  {
+    "code": 1006,
+    "day": "Cloudy",
+    "night": "Cloudy",
+    "imageDay": "https://images.unsplash.com/photo-1611928482473-7b27d24eab80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWR5JTIwd2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+    "imageNight": "https://media.istockphoto.com/id/603174568/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D0%BE%D0%B5-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%B8%D0%BD%D0%B4%D0%B8%D0%B3%D0%BE-%D0%BD%D0%B0%D0%B4-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=L4BMbigOsl8QKE2xeFZfaYlnTHHKc9RBQhJi7LxiXeE="
+  },
+  {
+    "code": 1009,
+    "day": "Overcast",
+    "night": "Overcast",
+    "imageDay": "https://media.istockphoto.com/id/1257951336/photo/transparent-umbrella-under-rain-against-water-drops-splash-background-rainy-weather-concept.jpg?s=170667a&w=0&k=20&c=f5CihJWupN7Wk9d-tSBvTJvdGqIm4AgOvJyI6eyk8Z8=",
+    "imageNight": "https://elements-video-cover-images-0.imgix.net/files/20cb912e-ab88-45bb-bb14-52223cdf8f3d/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=394&w=700&s=e1aaf09fbeb33af1ca170a5bd491b3b5"
+  },
+  {
+    "code": 1030,
+    "day": "Mist",
+    "night": "Mist",
+    "imageDay": "https://media.istockphoto.com/id/1055906130/photo/foggy-rural-asphalt-highway-perspective-with-white-line-misty-road-road-with-traffic-and.jpg?s=170667a&w=0&k=20&c=YoA8zGXvIbFqLr8I8Ttf2al9N4f4AcVbij7PhyggCso=",
+    "imageNight": "https://staticdelivery.nexusmods.com/images/101/1518707-1493462307.jpg"
+  },
+  {
+    "code": 1063,
+    "day": "Patchy rain possible",
+    "night": "Patchy rain possible",
+    "imageDay": "http://www.metcheck.com/DATA/IMAGES/FRONTPAGE/METCHECK/Generic_ShowerClouds_28340_USER.jpg",
+    "imageNight": "https://www.india.com/wp-content/uploads/2020/07/rain1.jpg"
+  },
+  {
+    "code": 1066,
+    "day": "Patchy snow possible",
+    "night": "Patchy snow possible",
+    "imageDay": "https://previews.123rf.com/images/bwf211/bwf2111306/bwf211130600080/20402322-a-barren-piece-of-real-estate-with-clumps-of-dried-grass-and-patchy-snow-in-the-foreground-and.jpg",
+    "imageNight": "https://pbs.twimg.com/media/Fne-9XSaIAAAxxH.jpg:large"
+  },
+  {
+    "code": 1069,
+    "day": "Patchy sleet possible",
+    "night": "Patchy sleet possible",
+    "imageDay": "https://patch.com/img/cdn20/shutterstock/25555227/20220113/120233/styles/patch_image/public/shutterstock-1714637878___13114459629.jpg",
+    "imageNight": "https://www.blueridgelife.com/wp-content/uploads/2014/11/WGR-snow-night-lights.jpg"
+  },
+  {
+    "code": 1072,
+    "day": "Patchy freezing drizzle possible",
+    "night": "Patchy freezing drizzle possible",
+    "imageDay": "https://www.indystar.com/gcdn/presto/2018/11/15/PIND/3bdcc73e-4406-43a8-8f02-28af372b581b-IceyWeather_MM_006.JPG",
+    "imageNight": "https://previews.123rf.com/images/milanchikov/milanchikov1611/milanchikov161100084/66327797-freezing-rain-night-outside-the-city-all-the-trees-are-covered-with-a-layer-of-ice-you-can-use-as.jpg"
+  },
+  {
+    "code": 1087,
+    "day": "Thundery outbreaks possible",
+    "night": "Thundery outbreaks possible",
+    "imageDay": "https://rmets.onlinelibrary.wiley.com/cms/asset/6930831b-6d95-4244-a823-b64b493127e8/wea3695-toc-0001-m.png",
+    "imageNight": "https://cms.accuweather.com/wp-content/uploads/2017/04/thinkstockphotos-478577629-2.jpg"
+  },
+  {
+    "code": 1114,
+    "day": "Blowing snow",
+    "night": "Blowing snow",
+    "imageDay": "https://c1.wallpaperflare.com/preview/678/329/219/people-woman-cold-weather.jpg",
+    "imageNight": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/blowing-snow-at-the-windmill-randy-small.jpg"
+  },
+  {
+    "code": 1117,
+    "day": "Blizzard",
+    "night": "Blizzard",
+    "imageDay": "https://s.abcnews.com/images/Health/GTY_Blizzard_MEM_160121_16x9_1600.jpg",
+    "imageNight": "https://c0.wallpaperflare.com/preview/887/576/21/nature-weather-outdoors-fog.jpg"
+  },
+  {
+    "code": 1135,
+    "day": "Fog",
+    "night": "Fog",
+    "imageDay": "https://w0.peakpx.com/wallpaper/1022/864/HD-wallpaper-2-person-walking-on-pathway-between-trees-during-foggy-weather.jpg",
+    "imageNight": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1dYaGMmjNo0VdxnmBvTgkzyWu7aOgHWWU0EIxRpD8-Snv23QzFBzQSonzS6eCd-MrQA&usqp=CAU"
+  },
+  {
+    "code": 1147,
+    "day": "Freezing fog",
+    "night": "Freezing fog",
+    "imageDay": "https://get.wallhere.com/photo/trees-forest-snow-winter-morning-mist-frost-Freezing-fog-weather-season-darkness-screenshot-atmospheric-phenomenon-geological-phenomenon-82707.jpg",
+    "imageNight": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt1dYaGMmjNo0VdxnmBvTgkzyWu7aOgHWWU0EIxRpD8-Snv23QzFBzQSonzS6eCd-MrQA&usqp=CAU"
+  },
+  {
+    "code": 1150,
+    "day": "Patchy light drizzle",
+    "night": "Patchy light drizzle",
+    "imageDay": "https://img.resized.co/newstalk/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL21lZGlhLnJhZGlvY21zLm5ldFxcXC91cGxvYWRzXFxcL2NvbnRlbnRcXFwvMDAwXFxcL2ltYWdlc1xcXC8wMDAxNjFcXFwvMTY1OTkxXzU0X25ld3NfaHViXzE0Njk5MF82NTZ4NTAwLmpwZ1wiLFwid2lkdGhcIjo5NzAsXCJoZWlnaHRcIjo0ODUsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5uZXdzdGFsay5jb21cXFwvaW1hZ2VzXFxcL2RlZmF1bHRfbm9faW1hZ2UucG5nP3Y9M1wiLFwib3B0aW9uc1wiOltdfSIsImhhc2giOiJjMDE2NTFjZWEwODRjMjdkMWQwOTNmOGI0YTNlMzZkNjlhZmQ2ZWI0In0=/tuesday-39-s-weather-patchy-drizzle-and-fog-with-light-southerly-breezes.jpg",
+    "imageNight": "https://i.pinimg.com/originals/40/fd/ae/40fdaeb9a1a2abe351164a447f97775a.jpg"
+  },
+  {
+    "code": 1153,
+    "day": "Light drizzle",
+    "night": "Light drizzle",
+    "imageDay": "https://scng-dash.digitalfirstmedia.com/wp-content/uploads/2018/04/ldn-l-weather-rain-dc-11.jpg",
+    "imageNight": "https://i.pinimg.com/originals/40/fd/ae/40fdaeb9a1a2abe351164a447f97775a.jpg"
+  },
+  {
+    "code": 1168,
+    "day": "Freezing drizzle",
+    "night": "Freezing drizzle",
+    "imageDay": "https://bouldercast.com/wp-content/uploads/freezing_rain_drizzle.png",
+    "imageNight": "https://i.pinimg.com/originals/40/fd/ae/40fdaeb9a1a2abe351164a447f97775a.jpg"
+  },
+  {
+    "code": 1171,
+    "day": "Heavy freezing drizzle",
+    "night": "Heavy freezing drizzle",
+    "imageDay": "https://bouldercast.com/wp-content/uploads/freezing_rain_drizzle.png",
+    "imageNight": "https://i.pinimg.com/originals/40/fd/ae/40fdaeb9a1a2abe351164a447f97775a.jpg"
+  },
+  {
+    "code": 1180,
+    "day": "Patchy light rain",
+    "night": "Patchy light rain",
+    "imageDay": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/04_01_2022_04_51_07_8829574.jpg?width=1280",
+    "imageNight": "https://rare-gallery.com/uploads/posts/4579511-rain-night-urban-road-lights.jpg"
+  },
+  {
+    "code": 1183,
+    "day": "Light rain",
+    "night": "Light rain",
+    "imageDay": "https://media.istockphoto.com/id/982222848/photo/view-of-the-street-surface-during-rain.jpg?b=1&s=170667a&w=0&k=20&c=gvxWf5C1QEKpzuhGIRdOT50Hy2HYW1msTDXg3gPCTEw=",
+    "imageNight": "https://rare-gallery.com/uploads/posts/4579511-rain-night-urban-road-lights.jpg"
+  },
+  {
+    "code": 1186,
+    "day": "Moderate rain at times",
+    "night": "Moderate rain at times",
+    "imageDay": "https://s.w-x.co/util/image/w/in-bangalore_2.jpg?crop=16:9&width=480&format=pjpg&auto=webp&quality=60",
+    "imageNight": "https://i.ytimg.com/vi/OYFsos8aLcM/maxresdefault.jpg"
+  },
+  {
+    "code": 1189,
+    "day": "Moderate rain",
+    "night": "Moderate rain",
+    "imageDay": "https://s.w-x.co/util/image/w/in-gujarat%20rain.jpg?crop=16:9&width=480&format=pjpg&auto=webp&quality=60",
+    "imageNight": "https://i.pinimg.com/originals/a7/a8/91/a7a891dabf9856018997615c5f9379e6.jpg"
+  },
+  {
+    "code": 1192,
+    "day": "Heavy rain at times",
+    "night": "Heavy rain at times",
+    "imageDay": "https://static01.nyt.com/images/2023/01/19/multimedia/19cli-historicrainfall1-tzmb/19cli-historicrainfall1-tzmb-videoSixteenByNine3000.jpg",
+    "imageNight": "https://i.pinimg.com/originals/a7/a8/91/a7a891dabf9856018997615c5f9379e6.jpg"
+  },
+  {
+    "code": 1195,
+    "day": "Heavy rain",
+    "night": "Heavy rain",
+    "imageDay": "https://static01.nyt.com/images/2023/01/19/multimedia/19cli-historicrainfall1-tzmb/19cli-historicrainfall1-tzmb-videoSixteenByNine3000.jpg",
+    "imageNight": "https://i.pinimg.com/originals/a7/a8/91/a7a891dabf9856018997615c5f9379e6.jpg"
+  },
+  {
+    "code": 1198,
+    "day": "Light freezing rain",
+    "night": "Light freezing rain",
+    "imageDay": "https://i.ytimg.com/vi/Wv_LsFoJyAc/maxresdefault.jpg",
+    "imageNight": "https://globalnews.ca/wp-content/uploads/2018/12/Photo-Freezing-Rain-Saskatoon-e1545396564650.jpg?quality=85&strip=all"
+  },
+  {
+    "code": 1201,
+    "day": "Moderate or heavy freezing rain",
+    "night": "Moderate or heavy freezing rain",
+    "imageDay": "https://deicing.net/wp-content/uploads/2018/11/heavy-freezing-rain.jpg",
+    "imageNight": "https://globalnews.ca/wp-content/uploads/2018/12/Photo-Freezing-Rain-Saskatoon-e1545396564650.jpg?quality=85&strip=all"
+  },
+  {
+    "code": 1204,
+    "day": "Light sleet",
+    "night": "Light sleet",
+    "imageDay": "https://ukranews.com/upload/news/2017/11/20/58c92707b1183-f249178f1c3155d93684a35a400dce220fc8cf12-900_1200.jpg",
+    "imageNight": "https://www.blueridgelife.com/wp-content/uploads/2014/11/WGR-snow-night-lights.jpg"
+  },
+  {
+    "code": 1207,
+    "day": "Moderate or heavy sleet",
+    "night": "Moderate or heavy sleet",
+    "imageDay": "https://ukranews.com/upload/news/2017/11/20/58c92707b1183-f249178f1c3155d93684a35a400dce220fc8cf12-900_1200.jpg",
+    "imageNight": "https://www.blueridgelife.com/wp-content/uploads/2014/11/WGR-snow-night-lights.jpg"
+  },
+  {
+    "code": 1210,
+    "day": "Patchy light snow",
+    "night": "Patchy light snow",
+    "imageDay": "https://nsidc.org/sites/default/files/images/After%20a%20snow%20storm%2C%20the%20sun%20emerged%20revealing%20this%20beautiful%20scene%20on%20Cedar%20River%20Road%20west%20of%20Mount%20Vernon%2C%20IA..jpg",
+    "imageNight": "https://www.publicdomainpictures.net/pictures/80000/nahled/light-snow-at-night.jpg"
+  },
+  {
+    "code": 1213,
+    "day": "Light snow",
+    "night": "Light snow",
+    "imageDay": "https://bloximages.chicago2.vip.townnews.com/bozemandailychronicle.com/content/tncms/assets/v3/editorial/6/69/669e2a92-561a-532f-bf14-103cdf993999/5ff7a4f86ce6e.image.jpg?resize=758%2C500",
+    "imageNight": "https://www.publicdomainpictures.net/pictures/80000/nahled/light-snow-at-night.jpg"
+  },
+  {
+    "code": 1216,
+    "day": "Patchy moderate snow",
+    "night": "Patchy moderate snow",
+    "imageDay": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Snow_packed_trees.jpg",
+    "imageNight": "https://bringmethenews.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0OTc2MTMxNDcwODYxNDc0/flyc0iwayaaic4a.jpg"
+  },
+  {
+    "code": 1219,
+    "day": "Moderate snow",
+    "night": "Moderate snow",
+    "imageDay": "https://fournews-assets-prod-s3b-ew1-aws-c4-pml.s3.amazonaws.com/media/2018/02/snowy_sideroad_g_HD.jpg",
+    "imageNight": "https://bringmethenews.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0OTc2MTMxNDcwODYxNDc0/flyc0iwayaaic4a.jpg"
+  },
+  {
+    "code": 1222,
+    "day": "Patchy heavy snow",
+    "night": "Patchy heavy snow",
+    "imageDay": "https://patch.com/img/cdn20/users/22965241/20210108/041022/styles/patch_image/public/img-8092___08160444914.jpg",
+    "imageNight": "https://bringmethenews.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0OTc2MTMxNDcwODYxNDc0/flyc0iwayaaic4a.jpg"
+  },
+  {
+    "code": 1225,
+    "day": "Heavy snow",
+    "night": "Heavy snow",
+    "imageDay": "https://thumbs.dreamstime.com/b/forest-has-covered-heavy-snow-bad-weather-sky-winter-season-lapland-finland-161582521.jpg",
+    "imageNight": "https://bringmethenews.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk0OTc2MTMxNDcwODYxNDc0/flyc0iwayaaic4a.jpg"
+  },
+  {
+    "code": 1237,
+    "day": "Ice pellets",
+    "night": "Ice pellets",
+    "imageDay": "https://www.narcity.com/media-library/toronto-weather-will-be-a-train-wreck-of-snow-ice-pellets-this-week.jpg?id=29356115&width=1245&height=700&coordinates=0%2C110%2C0%2C110",
+    "imageNight": "https://globalnews.ca/wp-content/uploads/2018/12/Photo-Freezing-Rain-Saskatoon-e1545396564650.jpg?quality=85&strip=all"
+  },
+  {
+    "code": 1240,
+    "day": "Light rain shower",
+    "night": "Light rain shower",
+    "imageDay": "https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/weather/learn-about/weather/rain-storm.jpg",
+    "imageNight": "https://cdn.rarejob.com/material/jitsuyo_eikaiwa/2017/12/07141614/L6_Ch5_L1_Voc_1.jpg"
+  },
+  {
+    "code": 1243,
+    "day": "Moderate or heavy rain shower",
+    "night": "Moderate or heavy rain shower",
+    "imageDay": "https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/weather/learn-about/weather/rain-storm.jpg",
+    "imageNight": "https://cdn.rarejob.com/material/jitsuyo_eikaiwa/2017/12/07141614/L6_Ch5_L1_Voc_1.jpg"
+  },
+  {
+    "code": 1246,
+    "day": "Torrential rain shower",
+    "night": "Torrential rain shower",
+    "imageDay": "https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/images/weather/learn-about/weather/rain-storm.jpg",
+    "imageNight": "https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/rain/rain-falling-on-the-horizon-over-the-sea-photo-brian-cook.jpg"
+  },
+  {
+    "code": 1249,
+    "day": "Light sleet showers",
+    "night": "Light sleet showers",
+    "imageDay": "https://ichef.bbci.co.uk/news/640/cpsprodpb/C199/production/_101016594_9aff074f-3d3b-4652-952b-d0bea7b3949c.jpg",
+    "imageNight": "https://www.clarksvilleonline.com/wp-content/uploads/2016/02/Light-Snow.jpg"
+  },
+  {
+    "code": 1252,
+    "day": "Moderate or heavy sleet showers",
+    "night": "Moderate or heavy sleet showers",
+    "imageDay": "https://ynet-pic1.yit.co.il/PicServer5/2020/01/22/9737015/photo_2020-01-22_13-36-43.jpg",
+    "imageNight": "https://scx2.b-cdn.net/gfx/news/2022/winter-storm-whipping-1.jpg"
+  },
+  {
+    "code": 1255,
+    "day": "Light snow showers",
+    "night": "Light snow showers",
+    "imageDay": "https://media.wtol.com/assets/WTOL/images/e1f2399e-d649-465e-bbd4-2ad058721f23/e1f2399e-d649-465e-bbd4-2ad058721f23_1920x1080.jpg",
+    "imageNight": "https://scx2.b-cdn.net/gfx/news/2022/winter-storm-whipping-1.jpg"
+  },
+  {
+    "code": 1258,
+    "day": "Moderate or heavy snow showers",
+    "night": "Moderate or heavy snow showers",
+    "imageDay": "https://www.thecoldwire.com/wp-content/uploads/2021/09/Snowstorm.jpg",
+    "imageNight": "https://i.ytimg.com/vi/OYFsos8aLcM/maxresdefault.jpg"
+  },
+  {
+    "code": 1261,
+    "day": "Light showers of ice pellets",
+    "night": "Light showers of ice pellets",
+    "imageDay": "https://eartheclipse.com/wp-content/uploads/2016/08/rain-raindrops-seasons-water-macro.jpg",
+    "imageNight": "https://www.insauga.com/wp-content/uploads/2023/02/snowynight.jpg"
+  },
+  {
+    "code": 1264,
+    "day": "Moderate or heavy showers of ice pellets",
+    "night": "Moderate or heavy showers of ice pellets",
+    "imageDay": "https://eartheclipse.com/wp-content/uploads/2016/08/rain-raindrops-seasons-water-macro.jpg",
+    "imageNight": "https://www.insauga.com/wp-content/uploads/2023/02/snowynight.jpg"
+  },
+  {
+    "code": 1273,
+    "day": "Patchy light rain with thunder",
+    "night": "Patchy light rain with thunder",
+    "imageDay": "https://i.pinimg.com/originals/c8/6e/fc/c86efc840433acb8bcd171b2550df70d.png",
+    "imageNight": "https://images.twnmm.com/c55i45ef3o2a/2G5E2fF7Gq157ArpZ6rxLf/6d5618060811c55dc447c8245d845a60/noaa-QO4Y97jiVDQ-unsplash.jpg"
+  },
+  {
+    "code": 1276,
+    "day": "Moderate or heavy rain with thunder",
+    "night": "Moderate or heavy rain with thunder",
+    "imageDay": "https://english.makalukhabar.com/wp-content/uploads/2021/09/157ZIapRuOaO4HVf916cHjRZq_4Ope2Z2-mk.jpg",
+    "imageNight": "https://in-cyprus.philenews.com/wp-content/uploads/2020/03/thunderstorm-5.jpg"
+  },
+  {
+    "code": 1279,
+    "day": "Patchy light snow with thunder",
+    "night": "Patchy light snow with thunder",
+    "imageDay": "https://www.farmersalmanac.com/wp-content/uploads/2020/11/What-Is-Thunder-Snow-Thundersnow-i899024928.jpeg",
+    "imageNight": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2022/01/1024/512/Lightning_Snow.png?ve=1&tl=1"
+  },
+  {
+    "code": 1282,
+    "day": "Moderate or heavy snow with thunder",
+    "night": "Moderate or heavy snow with thunder",
+    "imageDay": "https://www.farmersalmanac.com/wp-content/uploads/2020/11/What-Is-Thunder-Snow-Thundersnow-i899024928.jpeg",
+    "imageNight": "https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2022/01/1024/512/Lightning_Snow.png?ve=1&tl=1"
+  }
+]

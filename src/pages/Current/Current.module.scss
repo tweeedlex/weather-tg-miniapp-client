@@ -1,0 +1,87 @@
+@import "../../styles/mixins.scss";
+
+.current {
+  @include space-between();
+}
+
+.info {
+  @include column();
+
+  .condition {
+    img {
+      @media (max-width: 479px) {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+
+  .infoItem {
+    @media (max-width: 479px) {
+      font-size: 14px;
+      img {
+        width: 20px;
+      }
+    }
+  }
+
+  li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
+
+.temperature {
+  @include space-between();
+  align-items: flex-end;
+
+  .numbers {
+    @media (max-width: 479px) {
+      margin-left: -30px;
+      position: relative;
+      left: 20px;
+    }
+    text-align: end;
+    p {
+      margin-bottom: 5px;
+      @media (max-width: 480px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  h2 {
+    font-size: 128px;
+    @media (max-width: 768px) {
+      font-size: 64px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 36px;
+    }
+  }
+
+  .thermometer {
+    @media (max-width: 479px) {
+      transform: scale(0.5) translate(20px, 50%);
+    }
+
+    position: relative;
+    height: 218px;
+  }
+}
+
+.condition {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.scale {
+  width: 5px;
+  max-height: 170px;
+  background-color: #ed1919;
+  position: absolute;
+  bottom: 25px;
+  left: 21px;
+}

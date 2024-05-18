@@ -1,0 +1,17 @@
+@import "../../styles/mixins.scss";
+
+.forecast {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 0 40px 0;
+  cursor: grab;
+}
+
+.general {
+  @include info;
+}
+
+.dateHeader {
+  @include info(5px);
+}

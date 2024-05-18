@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+.card {
+  background: #ffffff;
+  box-shadow: $shadow;
+  border-radius: 50px;
+  max-width: 750px;
+  padding: 30px;
+  * {
+    color: #000;
+  }
+  overflow: hidden;
+  &.scroll {
+    height: 60vh;
+    .content {
+      height: 100%;
+      overflow: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
