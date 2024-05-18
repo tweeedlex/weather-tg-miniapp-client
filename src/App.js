@@ -20,6 +20,7 @@ function App() {
   const dispatch = useDispatch();
 
   const [isLoading, setIsLoading] = useState(true);
+  setTimeout(() => setIsLoading(false), 5000);
 
   const [background, setBackground] = useState("");
 
