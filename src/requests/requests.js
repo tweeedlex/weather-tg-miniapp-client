@@ -4,7 +4,7 @@ import {
   setFetchedLocation,
   setForecast,
 } from "../store/slice";
-import { FORECAST_URL, FUTURE_URL, KEY } from "./config";
+import { FORECAST_URL, KEY } from "./config";
 
 export const getAll = async (dispatch, location) => {
   if (!location) return;

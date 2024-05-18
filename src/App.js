@@ -1,10 +1,9 @@
 import { Route, Routes } from "react-router";
 import { Current } from "./pages/Current/Current.jsx";
 import { Forecast } from "./pages/Forecast/Forecast.jsx";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Header } from "./components/Header/Header.jsx";
 import { useSelector } from "react-redux";
-import { getAll } from "./requests/requests.js";
 import { useDispatch } from "react-redux";
 import { useBackground } from "./hooks/useBackground.js";
 import { useGetWeather } from "./hooks/useGetWeather.js"
