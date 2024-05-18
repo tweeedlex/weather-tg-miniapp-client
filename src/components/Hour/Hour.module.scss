@@ -13,10 +13,27 @@
   &.closed {
     height: 42px;
   }
+  .visible {
+    @media (max-width: 479px) {
+      justify-content: space-between;
+      gap: 5px;
+      * {
+        font-size: 12px;
+      }
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
 }
 
 .condition {
   max-width: 180px;
+
+  @media (max-width: 479px) {
+    display: none;
+  }
 }
 
 .small {

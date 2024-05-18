@@ -13,5 +13,19 @@
 }
 
 .dateHeader {
+  @media (max-width: 479px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  p {
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+
+    @media (max-width: 479px) {
+      gap: 5px;
+    }
+  }
   @include info(5px);
 }

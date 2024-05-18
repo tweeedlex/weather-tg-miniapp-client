@@ -85,16 +85,6 @@ export const Header = () => {
                 Forecast
               </Link>
             </li>
-            <li className={styles.linkItem}>
-              <Link className={styles.link} to="/history">
-                History
-              </Link>
-            </li>
-            <li className={styles.linkItem}>
-              <Link className={styles.link} to="/future">
-                Future
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>

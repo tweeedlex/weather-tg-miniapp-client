@@ -12,22 +12,24 @@ import styles from "./ForecastDate.module.scss";
 export const ForecastDate = ({ date, displayNumber }) => {
   return date.day ? (
     <div className={styles.forecast}>
-      <p className={styles.dateHeader}>
+      <div className={styles.dateHeader}>
         <span>{date.date}</span>
+        <p>
+          <span>
+          <img alt="" src={date.day.condition.icon} width={24} height={24}/>
+            {date.day.condition.text}
+          </span>
+            <span>
+            <img alt="" src={avgIcon}/> {date.day.avgtemp_c}°C
+          </span>
+        </p>
+      </div>
+      <div className={styles.general}>
         <span>
-          <img alt="" src={date.day.condition.icon} width={24} height={24} />
-          {date.day.condition.text}
+          <img alt="" src={maxIcon}/> {date.day.maxtemp_c}°C
         </span>
         <span>
-          <img alt="" src={avgIcon} /> {date.day.avgtemp_c}°C
-        </span>
-      </p>
-      <p className={styles.general}>
-        <span>
-          <img alt="" src={maxIcon} /> {date.day.maxtemp_c}°C
-        </span>
-        <span>
-          <img alt="" src={minIcon} />
+          <img alt="" src={minIcon}/>
           {date.day.mintemp_c}°C
         </span>
         <span>
@@ -48,7 +50,7 @@ export const ForecastDate = ({ date, displayNumber }) => {
           <img src={humidityIcon} alt="" />
           {date.day.avghumidity}%
         </span>
-      </p>
+      </div>
       <div className={styles.hourly}>
         {date.hour.map(
           (hour) =>

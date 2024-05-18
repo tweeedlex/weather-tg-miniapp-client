@@ -2,8 +2,6 @@ import { Route, Routes } from "react-router";
 import { Current } from "./pages/Current/Current.jsx";
 import { Forecast } from "./pages/Forecast/Forecast.jsx";
 import { useEffect, useState } from "react";
-import { History } from "./pages/History/History.jsx";
-import { Future } from "./pages/Future/Future.jsx";
 import { Header } from "./components/Header/Header.jsx";
 import { useSelector } from "react-redux";
 import { getAll } from "./requests/requests.js";
@@ -62,8 +60,6 @@ function App() {
               <Routes>
                 <Route path="/" element={<Current/>}/>
                 <Route path="/forecast" element={<Forecast/>}/>
-                <Route path="/history" element={<History/>}/>
-                <Route path="/future" element={<Future/>}/>
               </Routes>
             </div>
           </main>

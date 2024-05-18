@@ -8,6 +8,7 @@ import feelsIcon from "../../images/icons/forecast/feels.png";
 import visibilityIcon from "../../images/icons/forecast/visibility.png";
 import snowIcon from "../../images/icons/forecast/snow.png";
 import rainIcon from "../../images/icons/forecast/rain.png";
+import windIcon from "../../images/icons/forecast/wind.png";
 
 export const Hour = ({ hour }) => {
   const [isOpened, setIsOpened] = useState(false);
@@ -22,7 +23,7 @@ export const Hour = ({ hour }) => {
         <p>{hour.time.split(" ")[1]}</p>
         <p>{hour.temp_c}°</p>
         <p>
-          <img src={"https:" + hour.condition.icon} alt="" />{" "}
+          <img src={"https:" + hour.condition.icon} style={{transform: "scale(1.4)"}} alt="" />{" "}
           <span
             className={
               styles.condition +
@@ -33,9 +34,11 @@ export const Hour = ({ hour }) => {
             {hour.condition.text}
           </span>
         </p>
-        <p>{hour.wind_kph} kph</p>
         <p>
-          <img src={pressureIcon} alt="" /> {hour.pressure_mb} mb
+          <img src={windIcon} alt=""/> {hour.wind_kph}
+        </p>
+        <p>
+          <img src={pressureIcon} alt="" /> {hour.pressure_mb}
         </p>
         <p>
           <img src={humidityIcon} alt="" /> {hour.humidity}%
@@ -48,26 +51,32 @@ export const Hour = ({ hour }) => {
       </div>
       <div className={styles.hidden}>
         <span>
-          <img src={precipIcon} alt="" /> Precip: {hour.precip_mm} mm
+          <img src={windIcon} alt=""/> {hour.wind_kph} kph
         </span>
         <span>
-          <img src={cloudIcon} alt="" />
+          <img src={pressureIcon} alt="" /> {hour.pressure_mb} mb
+        </span>
+        <span>
+          <img src={precipIcon} alt=""/> Precip: {hour.precip_mm} mm
+        </span>
+        <span>
+          <img src={cloudIcon} alt=""/>
           Cloud: {hour.cloud}%
         </span>
         <span>
-          <img src={feelsIcon} alt="" />
+          <img src={feelsIcon} alt=""/>
           Feels: {hour.feelslike_c}°
         </span>
         <span>
-          <img src={visibilityIcon} alt="" />
+          <img src={visibilityIcon} alt=""/>
           Visibility: {hour.vis_km} km
         </span>
         <span>
-          <img src={rainIcon} alt="" />
+          <img src={rainIcon} alt=""/>
           Chance of rain: {hour.chance_of_rain}%
         </span>
         <span>
-          <img src={snowIcon} alt="" />
+          <img src={snowIcon} alt=""/>
           Chance of snow: {hour.chance_of_snow}%
         </span>
       </div>
